@@ -5,7 +5,7 @@ s.platform = :ios
 s.ios.deployment_target = '9.0'
 s.swift_version = "4.2"
 #########
-s.version = "0.1.8"
+s.version = "0.1.9"
 #########
 s.name = "KVLocalLog"
 s.summary = "KVLocalLog : simple log with realm"
@@ -18,7 +18,7 @@ s.source = { :git => "git@github.com:anhdn-citigo/KVLocalLog.git",
 #########
 s.framework = "UIKit"
 s.framework = "Foundation"
-s.dependency 'RealmSwift', '~> 2.10.0'
+s.dependency 'RealmSwift', '~> 3.17.3'
 s.dependency 'SwiftyUserDefaults', '~> 3.0.0'
 s.dependency 'SwiftyJSON'
 #########

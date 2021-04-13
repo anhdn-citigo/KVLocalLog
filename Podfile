@@ -22,7 +22,7 @@ target 'KVLocalLog' do
   use_frameworks!
 
   # Pods for KVLocalLog
-  pod 'RealmSwift', '~> 2.10.0', :modular_headers => true
+  pod 'RealmSwift', '~> 3.17.3', :modular_headers => true
   pod 'SwiftyUserDefaults', '~> 3.0.0'
   pod 'SwiftyJSON'
 end
